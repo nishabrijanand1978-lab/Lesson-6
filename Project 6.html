@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Book Donation Drive</title></head>
+
+    <body>
+        <h1 style="text-align: center;">Book Donation Drive, Lucknow</h1>
+        <p>Kindly Fill this Form If you wish to Donate you books to help people get education📚</p>
+
+        <form>
+            <fieldset>
+                <legend> Donor Details </legend>
+
+                <label>Your Name:</label><br>
+                <input type="text" id="name" placeholder="Enter your Full Name"><br><br>
+
+                <label>Donor ID:</label><br>
+                <input type="password" id="ID" placeholder="Enter the Donor ID provided"><br><br>
+
+                <label>Donation Date:</label><br>
+                <input type="date" id="date" placeholder="Enter a suitable date"><br><br>
+
+                <label>Donor Whatsapp Number:</label><br>
+                <input type="text" id="num" placeholder="Enter you Number for easy contact"><br><br>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Book Details </legend>
+
+                <label>Choose your book Category:</label><br>
+                <select id="category">
+                    <option value="">---Select Category---</option>
+                    <option value="friction">Friction</option>
+                    <option value="mythology">Mythology</option>
+                    <option value="historical">Historical</option>
+                    <option value="educational">Educational</option>
+                    <option value="fantasy">Fantasy</option>
+                </select><br><br>
+
+                <label>Book Condition:</label><br>
+                <input type="radio" name="condition" value="new"> Like New<br>
+                <input type="radio" name="condition" value="good"> Good<br>
+                <input type="radio" name="condition" value="used"> Used<br>
+                
+                <label>Book Title or Extra Information</label><br>
+                <textarea id="notes" rows="5" cols="100" placeholder="e.g. Book Tiltle, Author, For(age rating), etc"></textarea><br>
+            </fieldset>
+
+            <fieldset>
+                <legend> Donor Preferences: </legend>
+
+                <input type="checkbox" value="reciept"> Receive Donation Receipt<br>
+                <input type="checkbox" value="updates"> Receive Updates About the Drive<br>
+                <input type="checkbox" value="future"> Participate in Future Drives<br>
+                <input type="checkbox" value="contact"> Be Contacted for Future Donations<br>
+
+            </fieldset>
+            <br>
+             
+            <input type="submit" value="Donate My Book">
+            
+        </form>
+    <p><b><mark style=" background-color: cornflowerblue;"><q>Everyone is kindly requested to only Donate books that are in a nice and usable condition to promote education among everyone!!</q></mark></b></p>
+    </body>
+</html>
